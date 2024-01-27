@@ -1,1 +1,0 @@
-The grade(s) of student [Μιχάλης Γεωργίου] is greater than 10 or smaller than 0. Please check your files
