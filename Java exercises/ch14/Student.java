@@ -1,23 +1,23 @@
-package gr.aueb.cf.ch11.model;
+package gr.aueb.cf.ch14;
 
-public class User {
-    private long id;
+public class Student {
+    private int id;
     private String firstname;
     private String lastname;
 
-    public User() {
+    public Student() {
     }
 
-    public User(long id, String firstname, String lastname) {
+    public Student(int id, String firstname, String lastname) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getFirstname() {
@@ -33,8 +33,8 @@ public class User {
         this.lastname = lastname;
     }
 
-    public String userDataToString(){
-        return "{User ID: " + id + "} " + "{User Firstname: " + firstname + "} "
-                + "{User Lastname: " + lastname + "}" + "\n";
+    public String studentDataToString(){
+        return "{Student ID: " + id + "} " + "{Student Firstname: " + firstname + "} "
+                + "{Student Lastname: " + lastname + "}" + "\n";
     }
 }
